@@ -1,0 +1,34 @@
+.header {
+  text-align: center;
+  background: #eaefef;
+  padding: 1px 0;
+  margin-bottom: 4px;
+}
+
+.header h1 {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+}
+.header ul {
+  background: #c8e0e8;
+  border-bottom: 1px solid #cacaca;
+}
+.header li {
+  display: inline-block;
+  border-right: 1px solid #999;
+}
+.header li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 8px 20px;
+}
+.header li a:hover {
+  color: #666;
+}
+.header li:first-child {
+  border-left: 1px solid #999;
+}

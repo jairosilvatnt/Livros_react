@@ -1,0 +1,10 @@
+.book {
+  overflow: auto;
+  margin: 20px 0;
+}
+.book img {
+  display: block;
+  width: 180px;
+  float: left;
+  margin: 0 10px;
+}

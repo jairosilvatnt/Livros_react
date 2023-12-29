@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #eaefef;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.main {
+  color: #027399;
+  text-decoration: none;  
+}
+
+.main h2 {
+  flex-basis: 100%;
+  font-size: 1em;
+  margin: 0;
+  padding: 6px 5px;
+  color: #fff;
+  background: #027399;
+}
+
+.card {
+  display: flex;
+  flex: 0 1 50%;
+  padding: 8px 0 10px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.card h2 {
+  font-size: 16px;
+}
+
+.thumb {
+  margin-right: 5px;
+}
+
+.thumb img {
+  display: block;
+  width: 80px;
+}
+.detalhes {
+  display: flex;
+  flex-direction: column;
+}
+.detalhes h3, p {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    flex-direction: column;
+  }
+}

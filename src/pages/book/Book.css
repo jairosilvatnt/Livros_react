@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #eaefef;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.main h2 {
+  flex-basis: 100%;
+  font-size: 1em;
+  margin: 0;
+  padding: 6px 5px;
+  color: #fff;
+  background: #027399;
+}
+.main h3 {
+  font-size: 1em;
+}
+
+.book {
+  overflow: auto;
+  margin: 20px 0;
+}
+
+.book img {
+  display: block;
+  width: 180px;
+  float: left;
+  margin: 0 10px;
+}
+
+.pag-book {
+  width: 900px;
+  height: 506px;
+  background: #c8e0e8;
+}

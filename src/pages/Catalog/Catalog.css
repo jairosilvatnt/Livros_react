@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #eaefef;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.main h2 {
+  flex-basis: 100%;
+  font-size: 1em;
+  margin: 0;
+  padding: 6px 5px;
+  color: #fff;
+  background: #027399;
+}
+
+.main h3 {
+  font-size: 1em;
+}
+
+.main a {
+  color: #027399;
+  text-decoration: none;
+}
+
+.main ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main ol {
+  margin-top: 8px;
+}
