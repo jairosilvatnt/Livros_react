@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./pages/home/Home";
@@ -9,7 +9,7 @@ import Catalog from "./pages/Catalog/Catalog";
 import FrontEnd from "./pages/FrontEnd/FrontEnd";
 import Footer from "./components/footer/Footer";
 import "./index.css";
-import axios from "axios";
+// import axios from "axios";
 import Book from "./pages/book/Book";
 
 // class App extends Component {
@@ -17,7 +17,7 @@ import Book from "./pages/book/Book";
 //   livros: []
 // };
 const App = () => {
-  const [livros, setLivros] = useState(
+  const [ livros ] = useState(
     [
       {
         "id": "9788575227268",
